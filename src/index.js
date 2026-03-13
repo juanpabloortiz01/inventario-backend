@@ -21,9 +21,3 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Backend corriendo en puerto ${PORT}`);
 });
-```
-
-Después de hacer commit en GitHub necesitás agregar dos variables en EasyPanel → **Environment**:
-```
-SUPABASE_URL=
-SUPABASE_SERVICE_KEY=
