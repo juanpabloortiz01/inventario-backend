@@ -25,5 +25,5 @@ app.listen(PORT, () => {
 
 Después de hacer commit en GitHub necesitás agregar dos variables en EasyPanel → **Environment**:
 ```
-SUPABASE_URL=https://lmffqsnekrdeorgtlvwl.supabase.co
+SUPABASE_URL=
 SUPABASE_SERVICE_KEY=
