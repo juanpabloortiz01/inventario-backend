@@ -8,6 +8,9 @@ const router = express.Router();
 const EVOLUTION_URL = process.env.EVOLUTION_URL;
 const EVOLUTION_API_KEY = process.env.EVOLUTION_API_KEY;
 
+console.log('EVOLUTION_URL:', EVOLUTION_URL);
+console.log('EVOLUTION_API_KEY:', EVOLUTION_API_KEY ? 'cargada' : 'undefined');
+
 router.get('/whatsapp-qr/:negocio_id', async (req, res) => {
   try {
     const { negocio_id } = req.params;
